@@ -35,7 +35,7 @@ const fetchData = async(target) => {
 fetchData(target)
 
 function updateDom (temp , city ,time , emoji , text){
-    temperature.innerText = temp;
+    temperature.innerText = temp+"°";
     cityField.innerText = city;
     const exactTime = time.split(" ")[1];
     const exactDate = time.split(" ")[0];
